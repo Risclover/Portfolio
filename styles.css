@@ -38,7 +38,7 @@ ul {
 }
 
 nav a {
-    color: white;
+    color: rgb(230, 230, 230);
     padding: 1.2rem;
     display: block;
     font-size: 1.3rem;
@@ -49,7 +49,7 @@ nav a:hover {
     background-color: rgb(70, 89, 130);
 }
 
-#hello {
+#welcome-section {
     text-align: center;
     height: 100vh;
     display: flex;
@@ -58,15 +58,15 @@ nav a:hover {
     justify-content: center;
 }
 
-#hello h1 {
+#welcome-section h1 {
     margin: 0;
     padding: 0;
     font-size: 3.6em;
-    color: white;
+    color: rgb(232, 232, 232);
     font-weight: 700;
 }
 
-#hello p {
+#welcome-section p {
     color: rgb(194, 55, 69);
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -86,8 +86,8 @@ nav a:hover {
 #projects h2 {
     font-size: 2.5rem;
     font-weight: 700;
-    color:white;
-    border-bottom: 1px solid white;
+    color:rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
     max-width: 640px;
     text-align: center;
     margin: auto;
@@ -116,7 +116,7 @@ img {
     padding: 1.4rem;
     background-color: #303841;
     font-size: 1.2rem;
-    color: white;
+    color:rgb(230, 230, 230);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -124,7 +124,7 @@ img {
     text-decoration: none;
 }
 
-.project:hover .span {
+.project-tile:hover .span {
     color: #ff7f50;
 }
 
@@ -164,7 +164,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: rgb(230, 230, 230);
     font-size: 1.8rem;
     height: 65vh;
     text-align: center;
@@ -188,7 +188,7 @@ footer {
 }
 
 #socials a {
-    color:white;
+    color:rgb(230, 230, 230);
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
@@ -203,7 +203,7 @@ footer {
 }
 
 .foot {
-    color:white;
+    color:rgb(230, 230, 230);
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
     display: flex;
@@ -228,3 +228,16 @@ footer {
     display: inline;
     width: 1.2rem;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
