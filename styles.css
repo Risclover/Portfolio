@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    background: linear-gradient(45deg, rgb(121, 126, 139), rgb(21, 20, 20));
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    line-height: 1.4;
+}
+
+nav {
+    background-color: rgb(194, 55, 69);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: -1px 1px 0px 1px rgba(0,0,0,0.24), -1px 1px 0px 1px rgba(0,0,0,0.24); box-shadow: -1px 1px 0px 1px rgba(0,0,0,0.24), -1px 1px 0px 1px rgba(0,0,0,0.24); 
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    padding-right: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: white;
+    padding: 1.2rem;
+    display: block;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(70, 89, 130);
+}
+
+#hello {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hello h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3.6em;
+    color: white;
+    font-weight: 700;
+}
+
+#hello p {
+    color: rgb(194, 55, 69);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.8em;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+#projects {
+    background-color: rgb(70, 89, 130);
+    text-align: center;
+    padding: 6rem 1.2rem;
+    
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:white;
+    border-bottom: 1px solid white;
+    max-width: 640px;
+    text-align: center;
+    margin: auto;
+    padding: 6px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2.4rem;
+    max-width: 1280px;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+img {
+    width: 100%;
+    height: calc(100% - 4.8rem);
+    object-fit: cover;
+    display: block;
+}
+
+#grid p {
+    display: block;
+    margin: auto;
+    padding: 1.4rem;
+    background-color: #303841;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#grid a {
+    text-decoration: none;
+}
+
+.project:hover .span {
+    color: #ff7f50;
+}
+
+.span {
+    color: #303841;
+    transition: color .3s;
+}
+
+.show {
+    background-color:#303841;
+    padding: .7rem 1.4rem;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    display: inline-block;
+    margin-top: 3rem;
+}
+
+.show:hover {
+    background-color:rgb(194, 55, 69);
+    transition: background-color .5s ease-out;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color:#303841;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#workwithme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.8rem;
+    height: 65vh;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+#workwithme p {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+
+#socials {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#socials a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    padding: 1.1rem;
+    display: inline-block;
+}
+
+#socials a:hover {
+    transform: translateY(8px);
+    transition: transform .4s ease-out;
+}
+
+.foot {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 4px solid rgb(194, 55, 69);
+    width: 100%;
+    font-weight: 300;
+    padding: 1rem .5rem;
+}
+
+.fake {
+    margin: 1.5rem;
+    font-weight: 300;
+}
+
+.copyright {
+    font-weight: 300;
+    margin: 1.5rem;
+}
+
+.fccicon {
+    display: inline;
+    width: 1.2rem;
+}
