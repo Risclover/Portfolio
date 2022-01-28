@@ -1,3 +1,2 @@
-# Portfolio
- 
-https://risclover.github.io/Portfolio
+# portfolio
+ My personal website and portfolio
